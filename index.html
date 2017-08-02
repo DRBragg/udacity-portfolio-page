@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio site for Udacity Front-End Nanoderee program">
+    <meta name="author" content="Drew Bragg">
+
+    <title>Drew Bragg</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/portfolio.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+</head>
+
+<body>
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand" href="#page-top"><i class="fa fa-code" aria-hidden="true"></i><b> Drew Bragg</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li class="page-scroll">
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li class="page-scroll">
+          <a href="#about">About</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<!-- Header -->
+<header id="maincontent">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <img class="img-responsive profile-img" src="img/portfolioPic.jpg" alt="Protfolio Picture">
+        <h1 class="name">Drew Bragg</h1>
+        <hr class="tag-dark">
+        <h4>Web Developer - Tech Explorer - Muddy Rucker</h4>
+        <br>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Portfolio</h2>
+        <hr class="tag-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 portfolio-item">
+        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+              <img src="img/portfolio/rtbr.png" class="img-responsive portfolio-img img-centered" alt="Read To Be Rich">
+            </a>
+      </div>
+      <div class="col-sm-4 portfolio-item">
+        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+              <img src="img/portfolio/sbp.jpg" class="img-responsive portfolio-img img-centered" alt="Sea Black Prints">
+            </a>
+      </div>
+      <div class="col-sm-4 portfolio-item">
+        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+              <img src="img/portfolio/rezzio.png" class="img-responsive portfolio-img img-centered" alt="Rezzio">
+            </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>About</h2>
+        <hr class="tag-dark">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+        <p>I have been taking apart computers for about a long as I can remember. In high school I was introduced to programming and the thought of being about to make a computer do what I wanted got me hooked.</p>
+      </div>
+      <div class="col-lg-4">
+        <p>I built my first website for Madmooner Global in 2004 and, while that company may be gone, my love for building websites isn't. My first Android App was built in 2008. My next project is a Full-Stack Web App for Rezzio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col col-md-4">
+        <h3>Location</h3>
+        <p>Anywhere with WiFi
+          <br>Warrington, PA 18976</p>
+      </div>
+      <div class="footer-col col-md-4">
+        <h3>Around the Web</h3>
+        <ul class="list-inline link-btns">
+          <li>
+            <a href="https://www.linkedin.com/in/drbragg/"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/DRBragg"><span class="sr-only">GitHub</span><i class="fa fa-fw fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col col-md-4">
+        <h3>About Drew</h3>
+        <p>When not writing code, or building web sites, he can be found teaching his daughter about computers or crushing GORUCK events.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row footer-row">
+      <div class="col-lg-12">
+        Copyright &copy; DRBragg 2017
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Read To Be Rich</h2>
+            <hr class="tag-primary">
+            <a href="http://www.readtoberich.000webhostapp.com"><img src="img/portfolio/rtbr.jpg" class="img-responsive img-centered" alt=""></a>
+            <p>Read To Be Rich is a 501(c)(3) organazation providing free books to in need areas. Their goal is to promote Literacy from a young age. The site was a donation.</p>
+            <ul class="list-inline">
+              <li>Client:
+                <strong><a href="http://readtoberich.000webhostapp.com">Read To Be Rich</a>
+                    </strong>
+              </li>
+              <li>Date:
+                <strong>2017
+                    </strong>
+              </li>
+              <li>Service:
+                <strong>Web Development
+                    </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Sea Black Prints</h2>
+            <hr class="tag-primary">
+            <a href="https://drewbragg.000webhostapp.com/sbp/index.html"><img src="img/portfolio/sbp.jpg" class="img-responsive img-centered" alt="Sea Black Prints"></a>
+            <p>Sea Black Prints is a dba for Chris Blackway, a local artist. I love his work and his attention to detail. All his work is handmade in Doylestown, PA. The page is currently "live" as a subpage until Chris figures out hosting.</p>
+            <ul class="list-inline">
+              <li>Client:
+                <strong><a href="https://drewbragg.000webhostapp.com/sbp/index.html">Chris Blackway</a>
+                    </strong>
+              </li>
+              <li>Date:
+                <strong>2017
+                    </strong>
+              </li>
+              <li>Service:
+                <strong>Web Development
+                    </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Rezzio</h2>
+            <hr class="tag-primary">
+            <a href="http://rezzio.co"><img src="img/portfolio/rezzio.png" class="img-responsive img-centered" alt=""></a>
+            <p>Rezzio is a Philly area Start-Up based out of Dexel. I was brought on to lead the development of their upcoming web app.</p>
+            <ul class="list-inline">
+              <li>Client:
+                <strong><a href="http://rezzio.co">Rezzio</a>
+                    </strong>
+              </li>
+              <li>Date:
+                <strong>2017
+                    </strong>
+              </li>
+              <li>Service:
+                <strong>Web Development
+                    </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="js/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
