@@ -28,17 +28,17 @@ hr.tag-dark {
 }
 
 hr.tag-dark:after {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   color: black;
 }
 
 hr.tag-light {
-  border-color: #2C3E50;
+  border-color: #2c3e50;
 }
 
 hr.tag-light:after {
   background-color: white;
-  color: #2C3E50;
+  color: #2c3e50;
 }
 
 .img-centered {
@@ -48,7 +48,8 @@ hr.tag-light:after {
 .profile-img {
   margin: 0 auto;
   padding-top: 75px;
-  max-width: 400px;
+  width: 400px;
+  max-width: 75%;
 }
 
 .footer-row {
@@ -61,7 +62,7 @@ hr.tag-light:after {
 
 #maincontent,
 #about {
-  background: #F7F7F9;
+  background: #f7f7f9;
   width: 100%;
 }
 
