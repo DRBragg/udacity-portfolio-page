@@ -47,8 +47,9 @@ hr.tag-light:after {
 
 .profile-img {
   margin: 0 auto;
-  padding-top: 75px;
-  width: 400px;
+  margin-top: 75px;
+  border-radius: 50%;
+  width: 300px;
   max-width: 75%;
 }
 
@@ -71,7 +72,6 @@ hr.tag-light:after {
 }
 
 .portfolio-img {
-  max-height: 180px;
   padding-bottom: 5px;
 }
 
